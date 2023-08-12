@@ -3,4 +3,7 @@
 
 .newspaper-container {
     width: 700px;
+    border-radius: 100%;
+    box-shadow: 0.5em;
+    padding: 5px;
 }
