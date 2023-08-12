@@ -1,2 +1,6 @@
 /* what link */
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Slab:wght@500&family=Source+Sans+Pro:wght@200;400;600&display=swap');
+
+.newspaper-conatainer {
+    width: 700px;
+}
