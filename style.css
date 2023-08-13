@@ -22,13 +22,8 @@ h1 {
     text-align: center;
 }
 
-nav {
-    border: 5px 0 5px 0;
-}
-
 nav a {
     list-style-type: none;
-    margin: 0;
     text-decoration: none;
     color: #777;
 }
@@ -36,6 +31,12 @@ nav a {
 li {
     display: inline;
     padding: 5px;
+}
+
+ul {
+    display: inline;
+    padding: 0 0 0 10px;
+    margin: 20px 15px 20px 15px;
 }
 
 body {
