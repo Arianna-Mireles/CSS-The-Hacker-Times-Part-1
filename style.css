@@ -3,58 +3,95 @@
 
 .newspaper-container {
     width: 700px;
-    box-shadow: 5px #ddd;
-    padding: 10px;
-    margin: auto;
-    background-color: white;
-}
-main h2, h5{
-    font-family: 'roboto slab';
-}
-
-main h5 {
-    color: #dd3232;
+    box-shadow: 5px 5px 15px #ddd;
+    padding: 1em;
+    margin: 3em auto;
+    background: white;
+    border-radius: 10px;
+    box-sizing: border-box;
 }
 
-h1 {
-    font-family: 'abril fatface';
-    margin: auto;
+header h1 {
+    font-family: 'Abril Fatface', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
     text-align: center;
+    font-size: 2.5em;
+}
+
+.date {
+    font-size: 0.8em;
 }
 
 nav a {
-    list-style-type: none;
-    text-decoration: none;
+    font-size: 0.8em;
     color: #777;
+    text-decoration: none;
 }
 
-li {
-    display: inline;
-    padding: 5px;
+nav ul {
+    list-style-type: none;
+    margin: 0;
 }
 
-ul {
-    display: inline;
-    padding: 0 0 0 10px;
-    margin: 20px 15px 20px 15px;
+nav li {
+    display: inline-block;
+    padding: 0 0.5em;
+}
+
+nav {
+    top: 0;
+    padding: 5px 0;
+    margin: 1em 0;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    position: sticky;
+}
+
+main h2 {
+    font-family: 'roboto slab', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 0;
+}
+
+main h5 {
+    font-family: 'abril fatface', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #dd3232;
+    margin-top: 0.5em;
 }
 
 body {
-    font-family: 'source sans pro';
-    background-color: #eee;
+    font-family: 'source sans pro', Arial, Helvetica, sans-serif;
+    background: #eee;
     border-color: #eee;
+    font-weight: 200;
 }
 
-#image1 {
+p {
+    font-size: 1.5em;
+    text-align: justify;
+    padding: 0 10px;
+}
+
+main img {
     width: 100%;
 }
 
 .more-articles {
-    display: flex;
+    border-top: 1px solid #eee;
+    margin-top: 1.5em;
+    text-align: center;
+}
+
+.more-articles section {
+    display: inline-block;
+    width: 44%;
+    margin: 0 1em;
+}
+
+.more-articles img {
     width: 100%;
 }
 
-h4 {
-    font-weight: bold;
-    font-family: 'roboto slab';
+.more-articles h4 {
+    font-family: 'roboto slab', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: left;
 }
