@@ -45,6 +45,7 @@ nav {
     border-top: 1px solid #eee;
     border-bottom: 1px solid #eee;
     position: sticky;
+    background: white;
 }
 
 main h2 {
